@@ -39,7 +39,7 @@ function App() {
             <FontAwesomeIcon icon={faMoon} />
           )}
         </button>
-      </div>
+      </div> 
 
       <div className="columns">
         <div className="column">
