@@ -9,7 +9,7 @@ function App() {
   // Get the root element from index.html by id
   const root = document.getElementById("root");
 
-  // Create onclick function for switch to dark mode or light
+  // Create onclick function for switch to dark mode or light 
   const handleClick = () => {
     if (darkMode === true) {
       root.className = "";
