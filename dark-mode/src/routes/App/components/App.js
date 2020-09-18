@@ -33,7 +33,7 @@ function App() {
           onClick={handleClick}
         >
           {/* Use ternary operator for switch between moon or sun icon */}
-          {root.className === "dark-mode" ? (
+          {darkMode ? (
             <FontAwesomeIcon icon={faSun} color="#FFA500" />
           ) : (
             <FontAwesomeIcon icon={faMoon} />
